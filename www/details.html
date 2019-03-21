@@ -1,0 +1,76 @@
+<ion-view view-title="Details">
+<ion-content has-bouncing="false">
+<div id="details">
+<div class="row responsive-lg" style="flex-wrap: wrap">
+<div class="col col-33">
+<img src="img/{{data.image}}" class="full-image image-extended"/> 
+</div>
+<div class="col col-67">
+<div class="padding" style="padding-top: 0">
+<h3>{{data.title}}</h3>
+  <h5 class="red-color">
+    <i class="icon ion-android-notifications"></i> {{data.time_r}} Min &nbsp;
+    <i class="icon ion-android-people"></i> {{data.servings}} Servings&nbsp;
+    <i class="icon ion-android-star"></i> {{data.dificult}}&nbsp;<br/>
+  </h5>
+</div>
+  
+<div class="default-div">
+      <a class="item item-avatar" href="#/tab/profile/{{data.chef}}" style="min-height: 52px;padding-bottom: 25px;">
+      <img src="img/{{data.avatar}}">
+      <h2>By {{data.chef_name}}</h2>
+      <span class="badge badge-assertive">View Profile</span>
+    </a>
+    </div>
+
+  <div class="item item-icon-left assertive">
+  <i class="icon ion-clipboard"></i>
+Description
+  </div>
+<p ng-bind-html="data.description" class="padding" style="padding-top: 0"></p>
+</div>
+
+</div>
+</div>
+
+<div class="padding">
+  <div class="item item-icon-left assertive">
+  <i class="icon ion-clipboard"></i>
+Ingredients
+  </div>
+
+  <div class="ingredients">
+  <p ng-bind-html="data.ingredients"></p>
+  </div>
+<br/>
+  <div class="item item-icon-left assertive">
+  <i class="icon ion-android-restaurant"></i>
+Preparation
+  </div>
+
+  <p ng-bind-html="data.preparation" class="padding"></p>
+
+
+  <div class="item item-icon-left assertive">
+  <i class="icon ion-heart"></i>
+  You might also like
+  </div>
+
+ </div>
+
+<div class="row" style="flex-wrap: wrap;">
+    <div class="col col-res-50" ng-repeat="item in recipes | limitTo: 7"> 
+        <a class="item item-thumbnail-left item-light" href="#/tab/details/{{item.id}}">
+      <img src="img/{{item.image}}">
+      <h2>{{item.title}}</h2>
+      <p>
+        <i class="icon ion-android-notifications"></i> {{item.time_r}} Min &nbsp;
+        <i class="icon ion-android-people"></i> {{item.servings}} Ser.&nbsp;
+        <i class="icon ion-android-star"></i> {{item.dificult}}<br/></p>
+    </a>
+    </div>
+</div>
+
+
+</ion-content>
+</ion-view>

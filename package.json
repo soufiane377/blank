@@ -1,0 +1,27 @@
+{
+  "name": "samira-app",
+  "version": "0.0.1",
+  "description": "An Ionic project",
+  "devDependencies": {
+    "@ionic/v1-toolkit": "^1.0.0",
+    "gulp": "^3.5.6",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "@ionic/lab": "^1.0.24",
+    "cordova-plugin-admobpro": "2.37.2",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-statusbar": "2.4.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-admobpro": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  }
+}

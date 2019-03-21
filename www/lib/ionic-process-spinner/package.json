@@ -1,0 +1,62 @@
+{
+  "_from": "ionic-process-spinner@0.0.1",
+  "_id": "ionic-process-spinner@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-21K5YdGJQJlpwg/8F5GS4fReLnA=",
+  "_location": "/ionic-process-spinner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ionic-process-spinner@0.0.1",
+    "name": "ionic-process-spinner",
+    "escapedName": "ionic-process-spinner",
+    "rawSpec": "0.0.1",
+    "saveSpec": null,
+    "fetchSpec": "0.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ionic-process-spinner/-/ionic-process-spinner-0.0.1.tgz",
+  "_shasum": "db52b961d189409969c20ffc179192e1f45e2e70",
+  "_spec": "ionic-process-spinner@0.0.1",
+  "_where": "E:\\Xamp2\\htdocs\\samira-front\\samiraProject",
+  "author": {
+    "name": "Bengt Weiße",
+    "email": "bengtler@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/KillerCodeMonkey/ionic-process-spinner/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Angular and Ionic Framework extension. It provides the ionProcessSpinner directive to show a loading spinner until a process has finished. It replaces the child content with a loading spinner while processing.",
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "grunt-contrib-uglify": "~0.6.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "homepage": "https://github.com/KillerCodeMonkey/ionic-process-spinner",
+  "keywords": [
+    "loader",
+    "process",
+    "spinner",
+    "ionic framework",
+    "ionic-process-spinner",
+    "ionic",
+    "angular",
+    "directive"
+  ],
+  "license": "MIT",
+  "main": "src/ionic-process-spinner.min.js",
+  "name": "ionic-process-spinner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillerCodeMonkey/ionic-process-spinner.git"
+  },
+  "version": "0.0.1"
+}

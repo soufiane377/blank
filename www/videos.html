@@ -1,0 +1,24 @@
+<ion-view view-title="Videos">
+<ion-content has-bouncing="false">
+
+
+<div class="row responsive-sm" style="flex-wrap: wrap;" ng-repeat="item in videos">
+<a href="/tab/video/">
+    <div class="list card m-2 margin "  style="background-image : url('http://api.wcode-agency.com/img/{{item.thumbnail}}')">
+
+      <div class="item  item-trns item-text-wrap  col-bottom">
+        <h3 class="light ">{{item.vid_name}}</h3>
+      </div>
+
+
+
+    </div>
+    <div class="dark col">
+      vues : 56565  | shares : 0045
+    </div>
+  </a>
+</div>
+
+
+</ion-content>
+</ion-view>
